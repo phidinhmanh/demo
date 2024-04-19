@@ -1,0 +1,3 @@
+waves: 3
+zombies sequence : 14 8 12
+wave length: 7 7 15
