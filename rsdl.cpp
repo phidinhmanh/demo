@@ -17,7 +17,7 @@ void window::init(){
 	if (TTF_Init() == -1)
 		throw "TTF_Init Fail";
     if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
-    throw "Mix Fail";
+                throw "Mix Fail";
     
     
 }
