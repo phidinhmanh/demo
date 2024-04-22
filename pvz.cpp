@@ -546,9 +546,7 @@ void display_game_layout(window & win, Player player, Icons icons){
 	display_icons_in_icon_bar(icons, player, win);
 }
 
-void display_icons_in_icon_bar(Icons icons, Player player, window & win){
-	
-}
+
 
 void display_game_elements(window & win, Elements & elements, Map & map){
 	display_zombies(win, elements.zombies, map);
